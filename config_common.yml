@@ -9,40 +9,32 @@ cpdaily:
   defaults:
     - default:
         #表单项标题
-        title: 今天你的所在地是？
+        title: 你的学生类别
         #表单项类型，对应今日校园接口返回的fieldType字段，1代表文本，2代表单选，3代表多选，4代表图片
-        type: 1
+        type: 2
         #表单项默认值, 三级选项选择用 '/' 分隔
-        value: 福建省/福州市/仓山区
+        value: 硕士生
     - default:
-        title: 今天你的体温是多少？
+        title: 你的生源类别
         type: 2
-        value: 37.2℃及以下
+        value: 内地学生
     - default:
-        title: 今天你的身体状况是？
+        title: 你是否有发热（≥37.3℃）、咳嗽、乏力等症状
         type: 2
-        value: 健康
+        value: 无
     - default:
-        title: 近14天你或你的共同居住人是否有疫情中、高风险区域人员接触史？
+        title: 你昨天晚上22：30，今天早上7：30、12：30的体温是否正常
         type: 2
-        value: 否
+        value: 是
     - default:
-        title: 近14天你或你的共同居住人是否和确诊、疑似病人接触过？
+        title: 如体温有异常，请填写具体情况
+        type: 1
+        value: 
+    - default:
+        title: 你是否认真阅读并熟知说明中学校关于在校学生发热应急处置流程
         type: 2
-        value: 否
+        value: 我已认真阅读并熟知
     - default:
-        title: 近14天你或你的共同居住人是否是确诊、疑似病例？
-        type: 2
-        value: 否
-    - default:
-        title: 你或你的共同居住人目前是否被医学隔离？
-        type: 2
-        value: 否
-    - default:
-        title: 今天你当地的健康码颜色是？
-        type: 2
-        value: 绿色
-    - default:
-        title: 本人是否承诺以上所填报的全部内容均属实、准确，不存在任何隐瞒与不实的情况，更无遗漏之处    
+        title: 本人承诺以上所填报的全部内容均属实、准确，不存在任何隐瞒与不实的情况，更无遗漏之处    
         type: 2
         value: 是

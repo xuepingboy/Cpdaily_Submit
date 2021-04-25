@@ -3,16 +3,11 @@ login:
   #开放的模拟登陆api服务器地址 
   api: "http://www.zimo.wiki:8080/wisedu-unified-login-api-v1.0/api/login"
 
-#今日校园相关配置
 cpdaily:
-  #表单组默认选项配置
   defaults:
     - default:
-        #表单项标题
         title: 你的学生类别
-        #表单项类型，对应今日校园接口返回的fieldType字段，1代表文本，2代表单选，3代表多选，4代表图片
         type: 2
-        #表单项默认值, 三级选项选择用 '/' 分隔
         value: 硕士生
     - default:
         title: 你的生源类别
